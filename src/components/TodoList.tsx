@@ -38,7 +38,7 @@ const TodoList: React.FC = () => {
        Add 
         </Button>
       </Flex>
-      <ul>
+      <ol>
         {todos.map((todo) => (
           <li
             key={todo.id}
@@ -48,7 +48,7 @@ const TodoList: React.FC = () => {
             {todo.text}
           </li>
         ))}
-      </ul>
+      </ol>
     </div>
   )
 }
